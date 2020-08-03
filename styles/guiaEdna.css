@@ -1,0 +1,132 @@
+
+#page-guia header{
+    margin-top: 48px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-guia header img{
+    margin-top: -4px;
+    margin-left: -70px;
+    margin-bottom: 40px;
+    width: 10%;
+    height: 10%;
+}
+
+#page-guia header a{
+    margin-top: -24px;
+    color: var(--title-color);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+#page-guia header a span{
+    margin-right: 16px;
+    background-image: url("../assets/arrow-left.svg");
+
+    display: flex;
+
+    width: 20px;
+    height: 24px;
+}
+
+section{
+    display: flex;
+    min-height: calc(100vh - 100px);
+}
+
+article{
+    background-color: #F7F195;
+    border-radius: 10px;
+    flex-grow: 6;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    /*order: -1;*/
+}
+
+article img{
+    margin-top: 20px;
+    transform: translateX(320%);
+}
+
+article h1{
+    font-size: 80px;
+    text-align: center;
+}
+
+article p{
+    margin: 5px;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+article li {
+    margin-top: 10px;
+    margin-left: 9%
+}
+
+article #buttons{
+    margin: 13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+article .button a{
+    width: 100%;
+    max-width: 287px;
+    height: 72px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    background: var(--primary-color);
+    transition: 400ms;
+    color: white;
+}
+
+article .button a span{
+    width: 72px;
+    height: 72px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #31AB76;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article .button a span::after{
+    content: "";
+    background-image: url("../assets/log-in.svg");
+
+    width: 20px;
+    height: 20px;
+}
+
+article .button a:hover{
+    background-color: #2fb86e;
+
+}
+
+article .button p{
+    color: #E4E4F1;
+    font-size: 25px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+#page-home{
+    background-position-x: 100vw;
+}
+
+#page-home header img{
+    width: 14%;
+    height: 14%;
+    transform: translateX(300px);
+    margin-top: -6px;
+    
+}
+
+#page-home main{
+    margin-bottom: -120px;
+}
+
+#page-home main h1{
+    display: flex;
+    font-size: 42px;
+}
